@@ -1,0 +1,26 @@
+* {
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Barlow';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    min-height: 80vh;
+}
+
+footer {
+    text-align: center;
+    min-height: 20vh;
+}
